@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АТЛАНТ — Расписание занятий</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header-inner">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">А</div>
+            <span class="logo-text">АТ<span>ЛАНТ</span></span>
+        </a>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="schedule.html">Расписание</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+        <button class="burger" aria-label="Открыть меню">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<section class="page-hero">
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Главная</a>
+            <span>/</span>
+            <span>Расписание</span>
+        </div>
+        <h1>Расписание занятий</h1>
+        <p>Групповые тренировки на неделю — выберите удобное время</p>
+    </div>
+</section>
+
+<section class="schedule-section">
+    <div class="container">
+
+        <div class="schedule-filters">
+            <button class="filter-btn active" data-filter="all">Все занятия</button>
+            <button class="filter-btn" data-filter="yoga">Йога</button>
+            <button class="filter-btn" data-filter="cardio">Кардио</button>
+            <button class="filter-btn" data-filter="strength">Сила</button>
+            <button class="filter-btn" data-filter="crossfit">CrossFit</button>
+            <button class="filter-btn" data-filter="stretch">Стретчинг</button>
+        </div>
+
+        <div class="schedule-days">
+            <div class="schedule-day">
+                <div class="schedule-day-header">
+                    Понедельник
+                    <span class="day-count">6 занятий</span>
+                </div>
+                <div class="schedule-items">
+                    <div class="schedule-item" data-category="yoga">
+                        <div class="item-time">07:00</div>
+                        <div class="item-info">
+                            <h4>Утренняя йога</h4>
+                            <p>Марина Соколова · Зал №2 · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="cardio">
+                        <div class="item-time">09:00</div>
+                        <div class="item-info">
+                            <h4>Аэробика</h4>
+                            <p>Анна Петрова · Зал №1 · 45 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="strength">
+                        <div class="item-time">11:00</div>
+                        <div class="item-info">
+                            <h4>Силовая тренировка</h4>
+                            <p>Дмитрий Иванов · Тренажёрный зал · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="crossfit">
+                        <div class="item-time">17:00</div>
+                        <div class="item-info">
+                            <h4>CrossFit WOD</h4>
+                            <p>Алексей Смирнов · Зал №3 · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="cardio">
+                        <div class="item-time">18:30</div>
+                        <div class="item-info">
+                            <h4>Зумба</h4>
+                            <p>Анна Петрова · Зал №1 · 45 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="stretch">
+                        <div class="item-time">20:00</div>
+                        <div class="item-info">
+                            <h4>Стретчинг</h4>
+                            <p>Марина Соколова · Зал №2 · 45 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="schedule-day">
+                <div class="schedule-day-header">
+                    Вторник
+                    <span class="day-count">5 занятий</span>
+                </div>
+                <div class="schedule-items">
+                    <div class="schedule-item" data-category="strength">
+                        <div class="item-time">08:00</div>
+                        <div class="item-info">
+                            <h4>Функциональный тренинг</h4>
+                            <p>Дмитрий Иванов · Зал №3 · 50 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="yoga">
+                        <div class="item-time">10:00</div>
+                        <div class="item-info">
+                            <h4>Виньяса-йога</h4>
+                            <p>Марина Соколова · Зал №2 · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="cardio">
+                        <div class="item-time">12:00</div>
+                        <div class="item-info">
+                            <h4>HIIT</h4>
+                            <p>Анна Петрова · Зал №1 · 45 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="crossfit">
+                        <div class="item-time">18:00</div>
+                        <div class="item-info">
+                            <h4>CrossFit WOD</h4>
+                            <p>Алексей Смирнов · Зал №3 · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="stretch">
+                        <div class="item-time">19:30</div>
+                        <div class="item-info">
+                            <h4>Стретчинг вечерний</h4>
+                            <p>Марина Соколова · Зал №2 · 45 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="schedule-day">
+                <div class="schedule-day-header">
+                    Среда
+                    <span class="day-count">5 занятий</span>
+                </div>
+                <div class="schedule-items">
+                    <div class="schedule-item" data-category="yoga">
+                        <div class="item-time">07:30</div>
+                        <div class="item-info">
+                            <h4>Утренняя йога</h4>
+                            <p>Марина Соколова · Зал №2 · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="strength">
+                        <div class="item-time">10:30</div>
+                        <div class="item-info">
+                            <h4>Силовая для начинающих</h4>
+                            <p>Дмитрий Иванов · Тренажёрный зал · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="cardio">
+                        <div class="item-time">13:00</div>
+                        <div class="item-info">
+                            <h4>Степ-аэробика</h4>
+                            <p>Анна Петрова · Зал №1 · 45 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="crossfit">
+                        <div class="item-time">17:30</div>
+                        <div class="item-info">
+                            <h4>CrossFit WOD</h4>
+                            <p>Алексей Смирнов · Зал №3 · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="stretch">
+                        <div class="item-time">20:00</div>
+                        <div class="item-info">
+                            <h4>Глубокий стретчинг</h4>
+                            <p>Марина Соколова · Зал №2 · 45 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="schedule-day">
+                <div class="schedule-day-header">
+                    Пятница
+                    <span class="day-count">4 занятия</span>
+                </div>
+                <div class="schedule-items">
+                    <div class="schedule-item" data-category="yoga">
+                        <div class="item-time">08:00</div>
+                        <div class="item-info">
+                            <h4>Хатха-йога</h4>
+                            <p>Марина Соколова · Зал №2 · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="strength">
+                        <div class="item-time">12:00</div>
+                        <div class="item-info">
+                            <h4>Силовая тренировка</h4>
+                            <p>Дмитрий Иванов · Тренажёрный зал · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="cardio">
+                        <div class="item-time">17:00</div>
+                        <div class="item-info">
+                            <h4>Аэробика</h4>
+                            <p>Анна Петрова · Зал №1 · 45 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="crossfit">
+                        <div class="item-time">19:00</div>
+                        <div class="item-info">
+                            <h4>CrossFit Weekend WOD</h4>
+                            <p>Алексей Смирнов · Зал №3 · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="schedule-day">
+                <div class="schedule-day-header">
+                    Суббота
+                    <span class="day-count">3 занятия</span>
+                </div>
+                <div class="schedule-items">
+                    <div class="schedule-item" data-category="yoga">
+                        <div class="item-time">09:00</div>
+                        <div class="item-info">
+                            <h4>Йога для расслабления</h4>
+                            <p>Марина Соколова · Зал №2 · 75 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="crossfit">
+                        <div class="item-time">11:00</div>
+                        <div class="item-info">
+                            <h4>CrossFit Open</h4>
+                            <p>Алексей Смирнов · Зал №3 · 90 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="schedule-item" data-category="cardio">
+                        <div class="item-time">13:00</div>
+                        <div class="item-info">
+                            <h4>Зумба-выходного дня</h4>
+                            <p>Анна Петрова · Зал №1 · 60 мин</p>
+                        </div>
+                        <div class="item-action">
+                            <a href="#" class="btn btn-primary" data-modal="signup">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-grid">
+        <div class="footer-about">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">А</div>
+                <span class="logo-text">АТ<span>ЛАНТ</span></span>
+            </a>
+            <p>Современный фитнес-центр. Работаем с 2016 года.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Навигация</h4>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="schedule.html">Расписание</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Направления</h4>
+            <ul>
+                <li><a href="services.html">Тренажёрный зал</a></li>
+                <li><a href="services.html">Йога</a></li>
+                <li><a href="services.html">CrossFit</a></li>
+                <li><a href="services.html">Кардио</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Контакты</h4>
+            <p>📍 ул. Спортивная, 12</p>
+            <p>📞 +7 (495) 123-45-67</p>
+            <p>✉️ info@atlant-fitness.ru</p>
+            <p>🕐 Пн–Вс: 7:00 – 22:00</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2024 АТЛАНТ Фитнес-центр. Все права защищены.</p>
+        <p>Информационно-справочная система</p>
+    </div>
+</footer>
+
+<div class="modal-overlay" id="signupModal">
+    <div class="modal">
+        <button class="modal-close">✕</button>
+        <h3>Записаться на занятие</h3>
+        <p>Оставьте контакты и мы свяжемся с вами в течение 30 минут</p>
+        <form id="signupForm">
+            <div class="form-group">
+                <label for="modalName">Ваше имя</label>
+                <input type="text" id="modalName" placeholder="Например: Иван">
+                <span class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="modalPhone">Телефон</label>
+                <input type="tel" id="modalPhone" placeholder="+7 (___) ___-__-__">
+                <span class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="modalService">Направление</label>
+                <select id="modalService">
+                    <option value="gym">Тренажёрный зал</option>
+                    <option value="yoga">Йога</option>
+                    <option value="crossfit">CrossFit</option>
+                    <option value="cardio">Кардио</option>
+                    <option value="personal">Персональная тренировка</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%; margin-top:8px;">Отправить заявку</button>
+        </form>
+    </div>
+</div>
+
+<button class="scroll-top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
